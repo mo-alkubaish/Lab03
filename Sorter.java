@@ -1,6 +1,10 @@
 public class Sorter{
     public static void main(String[] args) {
-
+        int[] testArray = {15,85,8,8,95,50};
+        sort(testArray);
+        for (int element: testArray){
+            System.out.println(element);
+        }
     }
     public static void insertionSort(int arr[]) {
         int n = arr.length;
@@ -38,7 +42,4 @@ public class Sorter{
         }
     }
     
-    public static void sort(int[] arr){
-        insertionSort(arr);
-    }
 }
