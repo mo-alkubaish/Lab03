@@ -15,7 +15,7 @@ public class Sorter{
     public static void main(String[] args) {
         
     }
-    
+
     public static void selectionSort(int arr[]){
         int n = arr.length;
  
@@ -34,5 +34,9 @@ public class Sorter{
             arr[min_idx] = arr[i];
             arr[i] = temp;
         }
+    }
+    
+    public static void sort(int[] arr){
+        insertionSort(arr);
     }
 }
